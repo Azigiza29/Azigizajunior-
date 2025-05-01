@@ -1,0 +1,631 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #d7d7d7;
+}
+/* ..........Menu Toggle Start............*/
+
+nav div{
+    width: 20px;
+    height: 4px;
+    background: black;
+    margin: 5px;
+}
+
+
+nav button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* .....,......Menu Toggle  End..........*/
+/*............ Navigation Start.........*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 25px;
+    background-color: tan;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px 25px;
+    font-size: 18px;
+    color: black;
+}
+
+ul li .service-dropdown li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+ul li .connect-dropdn li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+ul li .service-dropdown{
+    position: absolute;
+    width: 100%;
+    display: none;
+    text-align: center;
+    font-family: fantasy;
+    background-color: tan;
+    z-index: 2;   
+    overflow-y: hidden; 
+}
+
+ul li .connect-dropdn{
+    position: absolute;
+    width: 100%;
+    display: none;
+    text-align: center;
+    font-family: fantasy;
+    background-color: tan;
+    z-index: 2;   
+    overflow-y: hidden; 
+}
+
+ul li a:hover{
+    color: #fff;
+    background-color: olive;
+    transition: all 0.5s;
+}
+
+ul li:hover .service-dropdown{
+    display: block;
+}
+
+ul li:hover .connect-dropdn{
+    display: block;
+}
+/* ............Navigation End...........*/
+/* ..........Card Section Start */
+.container{
+    flex: 0 0 48%;
+    justify-content: space-around;
+    padding: 20px 10px ;
+    margin: 1%;
+    box-shadow: 0 0 10px gray;
+}
+
+.container:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px tomato;
+}
+
+.card-title{
+    text-align: center;
+    margin-top: 30px;
+    font-family: montsarrat san-serif arial;
+}
+.linebb{
+    width: 120px;
+    height: 5px;
+    background: #e58439e6;
+    margin-left: 43%;
+}
+
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+}
+
+.container h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: "Graduate", serif;
+}
+
+/* ........... Hero Section Start */
+
+.hero{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: url('bg-img.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: times new roman, san-serif;
+}
+
+.hero::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+
+.hero-container{
+    padding: 30px;
+    color: #fff;
+    z-index: 1;
+}
+
+.hero-container button{
+    position: relative;
+    left: 40%;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: #e58439e6;
+    color: beige;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    
+}
+.hero-container button:hover{
+    background: #e54339e6;
+}
+
+.hero-container a{
+    text-decoration: none;
+    color: beige;
+    font-weight: 500;
+}
+
+.hero-container span{
+    color:  #e58439e6;
+}
+
+.hero h1{
+    font-size: 10rem;
+    margin: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Graduate", serif;
+}
+
+.hero p{
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+    font-family: montsarrat;
+}
+/* ...........About Section Start........ */
+
+.about-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+
+.about-title{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    
+}
+
+.about-container{
+     display: flex;
+     padding: 40px 20px;
+     margin-top: 20px;
+     justify-content: space-around;
+     flex: 0 0 100%;
+     box-shadow: 0 0 10px gray;
+}
+
+.about-content{
+    padding: 20px;
+}
+
+.about-container img{
+    padding: 20px;
+    width: 220px;
+    height: 220px;
+}
+    
+ .about-container p{
+        line-height: 25px;
+        font-family: serif;
+        margin-top: 20px;
+}
+    
+/* ...........About Section End........... */
+/* ..........get intouch start............ */
+.getintouch-title{
+    text-align: center;
+    margin: 20px;
+}
+
+.getintouch-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.getintouch-container{
+    background: #d7d7d7;
+    flex: 0 0 100%;
+    padding: 20px 20px;
+    box-shadow: 0 0 10px gray;
+    flex-wrap: wrap;
+    border-radius: 8px;
+}
+
+
+.form-title{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.getintouch-container label, input{
+    display: block;
+    margin: 20px 0;
+}
+
+.getintouch-container input{
+    width: 95%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid;
+    background: transparent;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+}
+.getintouch-container input:hover{
+    background: #181d30c9;
+    color: beige;
+}
+
+.getintouch-container textarea{
+    border: none;
+    border: 1px solid;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 16px;
+}
+.getintouch-container textarea:hover{
+    background: #181d30c9;
+    color: beige;
+}
+
+.form-btn{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: #e58439e6;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 30px 0;
+    border-radius: 8px;
+}
+
+.form-btn:hover{
+    background:#e54239e6;
+}
+
+/* ...........get intouch end............. */
+/* ...........footer start............ */
+footer{   
+    background: #1a1a1aca; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    margin-left: 40px;
+}
+.footer-content{
+    flex: 0 0 48%;
+    display: block;
+}
+
+.footer-container h3{
+    display: inline;
+    color: crimson;
+    background: beige;
+    padding: 8px;
+}
+
+.footer-content a{
+    display: inline-block;
+    color: beige;
+    margin: 20px;
+    text-decoration: none;
+}
+
+footer p{
+    text-align: center;
+    margin: 30px;
+    font-size: 16px;
+    color: bisque;
+    border-bottom: 2px solid #e58439e6;
+}
+
+footer span{
+    color: #e58439e6;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 2px solid #e58439e6;
+}
+
+
+.social-links i{
+    color: ghostwhite;
+    font-size: 30px;
+    margin: 20px;
+}
+
+/* ............footer end......... */
+
+
+
+
+
+@media(max-width: 748px){
+
+
+nav{
+   box-shadow: 0 0 10px white;
+ }
+
+    .main-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 10px;
+    }
+
+
+  .container{
+      flex: 1 0 100%
+       
+    }
+    
+ .container:hover{
+     transform: translateY(-3px);
+     box-shadow: 0 0 5px tomato;
+ }
+    
+ .hero-container button{
+    position: relative;
+    left: 35%;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: #e58439e6;
+    color: beige;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;margin-bottom: 10px;
+    
+}
+
+.hero-container a{
+    text-decoration: none;
+    color: beige;
+    font-weight: 500;
+}
+
+.hero-container span{
+    color:  #e58439e6;
+}
+
+.hero h1{
+    font-size: 2.5rem;
+    margin: 10px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.hero p{
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.linebb{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90px;
+    height: 5px;
+    background: #e58439e6;
+    margin-left: 138px;
+} 
+
+/* ............. About Section Start */
+
+  .about-section{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      padding: 20px 10px;
+  }
+
+.about-container{
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 20px;
+     flex: 0 0 100%;
+     box-shadow: 0 0 10px gray;
+     border-radius: 8px;
+}
+
+.about-content{
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+}
+
+.about-section img{
+        width: 220px;
+        height: 220px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+    }
+    
+    /* ........ footer start........ */
+    footer{   
+    background: #1a1a1aca; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 10px 20px 20px;
+    margin-left: 20px;
+}
+
+.footer-container h3{
+    color: crimson;
+    background: beige;
+}
+
+.footer-content a{
+    flex: 0 0 30%;
+    display: block;
+    color: beige;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+footer p{
+    text-align: center;
+    color: bisque;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e58439e6;
+}
+
+footer span{
+    color: #e58439e6;
+    font-weight: 600;
+}
+
+.social-links i{
+    color: ghostwhite;
+    font-size: 30px;
+    margin: 20px;
+}
+
+    /* .........footer end........... */
+/* ..........get intouch start............ */
+.getintouch-title{
+    text-align: center;
+    margin: 20px;
+}
+
+.getintouch-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.getintouch-container{
+   flex: 0 0 100%;
+   box-shadow: 0 0 10px gray;
+   padding: 20px 10px;
+   border-radius: 10px;
+   
+}
+
+.form-title{
+    font-size: 16px;
+    text-align: center;
+    color: #e58439e6;
+}
+
+.getintouch-container label, input{
+    display: block;
+    margin: 20px 0;
+}
+
+.getintouch-container input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+}
+
+
+.getintouch-container input:hover{
+    background: #181d30c9;
+    color: beige;
+}
+
+.getintouch-container textarea{
+    width: 100%;
+    height: 80%;
+    border: none;
+    border: 1px solid;
+    outline: none;
+    background: transparent;
+    border-radius: 8px;
+    padding: 5px;
+}
+.getintouch-container textarea:hover{
+    background: #181d30c9;
+    color: beige;
+}
+
+.form-btn{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: #e58439e6;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 30px 0;
+    border-radius: 8px;
+}
+
+.form-btn:hover{
+    background:#e54239e6;
+}
+
+/* ...........get intouch end............. */
+}
