@@ -106,6 +106,7 @@ ul li:hover .connect-dropdn{
     justify-content: space-around;
     padding: 20px 10px ;
     margin: 1%;
+    font-family: sans-serif, momospace;
     box-shadow: 3px 4px 15px black;
     border-radius: 8px;
 }
