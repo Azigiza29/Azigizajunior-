@@ -47,20 +47,18 @@ nav ul li a{
     display: block;
     text-decoration: none;
     padding: 15px 20px;
-    font-size: 18px;
+    font-size: 14px;
     color: black;
 }
 
 ul li .service-dropdown li{
     display: inline-block;
     margin-right: 5px;
-     font-size: 14px
 }
 
 ul li .connect-dropdn li{
     display: inline-block;
     margin-right: 5px;
-    font-size: 14px
 }
 
 ul li .service-dropdown{
@@ -71,6 +69,7 @@ ul li .service-dropdown{
     font-family: sans-serif, montserrat, sans;
     background-color: tan;
     z-index: 2;   
+     font-size: 14px
     overflow-y: hidden; 
 }
 
@@ -81,7 +80,8 @@ ul li .connect-dropdn{
     text-align: center;
     font-family: sans-serif, montserrat, sans;
     background-color: tan;
-    z-index: 2;   
+    z-index: 2;
+     font-size: 14px
     overflow-y: hidden; 
 }
 
@@ -106,7 +106,7 @@ ul li:hover .connect-dropdn{
     padding: 20px 10px ;
     margin: 1%;
     box-shadow: 3px 4px 15px black;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .container:hover{
@@ -123,7 +123,7 @@ ul li:hover .connect-dropdn{
     width: 120px;
     height: 5px;
     background: #e58439e6;
-    margin-left: 43%;
+    margin-left: 45%;
 }
 
 .main-section{
