@@ -70,7 +70,7 @@ ul li .service-dropdown{
     font-family: sans-serif, montserrat, sans;
     background-color: tan;
     z-index: 2;   
-    font-size: 14px;
+    font-size: 12px;
     overflow-y: hidden; 
 }
 
@@ -82,7 +82,7 @@ ul li .connect-dropdn{
     font-family: sans-serif, montserrat, sans;
     background-color: tan;
     z-index: 2;
-    font-size: 14px;
+    font-size: 12px;
     overflow-y: hidden; 
 }
 
@@ -530,7 +530,7 @@ nav{
     flex: 0 0 30%;
     display: block;
     color: beige;
-    font-size: 16px;
+    font-size: 12px;
     text-decoration: none;
 }
 
