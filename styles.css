@@ -472,7 +472,7 @@ nav{
     width: 90px;
     height: 5px;
     background: blue;
-    margin-left: 138px;
+    margin-left: 48%;
 } 
 
 /* ............. About Section Start */
@@ -619,12 +619,12 @@ footer span{
     color: beige;
 } 
 
-.linebb{
+/* .linebb{
     width: 120px;
     height: 5px;
     background: #e58439e6;
     margin-left: 80%;
-}
+} */
     
 .form-btn{
     width: 100%;
