@@ -142,10 +142,10 @@ ul li:hover .connect-dropdn{
 .hero{
     position: relative;
     display: flex;
-    flex-wrapper: wrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 100vh;
     background: url('bg-img.jpg') no-repeat;
     background-position: center center;
     background-size: cover;
@@ -164,7 +164,7 @@ ul li:hover .connect-dropdn{
 }
 
 .hero-container{
-    padding: 30px;
+    padding: 20px;
     color: #fff;
     z-index: 1;
 }
@@ -197,18 +197,18 @@ ul li:hover .connect-dropdn{
 }
 
 .hero h1{
-    font-size: 10rem;
-    margin: 20px;
+    font-size: 7rem;
+    margin: 15px;
     text-transform: capitalize;
     text-align: center;
-    font-family: "Graduate", serif;
+    font-family: sans-serif;
 }
 
 .hero p{
     text-align: center;
     padding: 5px;
-    font-size: 16px;
-    font-family: montsarrat;
+    font-size: 14px;
+    font-family: montserrat, sans-serif;
 }
 /* ...........About Section Start........ */
 
