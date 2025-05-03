@@ -57,9 +57,17 @@ ul li .service-dropdown li{
     margin-right: 5px;
 }
 
+ul li .service-dropdown a{
+     font-size: 14px;
+}
+
 ul li .connect-dropdn li{
     display: inline-block;
     margin-right: 5px;
+}
+
+ul li .connect-dropdn a{
+     font-size: 14px;
 }
 
 ul li .service-dropdown{
