@@ -55,6 +55,7 @@ nav ul li a{
 ul li .service-dropdown li{
     display: inline-block;
     margin-right: 5px;
+    text-alien: center;
 }
 
 ul li .service-dropdown a{
@@ -64,6 +65,7 @@ ul li .service-dropdown a{
 ul li .connect-dropdn li{
     display: inline-block;
     margin-right: 5px;
+    text-alien: center;
 }
 
 ul li .connect-dropdn a{
