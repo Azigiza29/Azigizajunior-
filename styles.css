@@ -466,15 +466,6 @@ nav{
     padding: 5px;
 }
 
-.linebb{
-    display: flex;
-    flex-wrap: wrap;
-    width: 90px;
-    height: 5px;
-    background: blue;
-    margin-left: 48%;
-} 
-
 /* ............. About Section Start */
 
   .about-section{
@@ -619,12 +610,12 @@ footer span{
     color: beige;
 } 
 
-/* .linebb{
+.linebb{
     width: 120px;
     height: 5px;
     background: #e58439e6;
     margin-left: 80%;
-} */
+}
     
 .form-btn{
     width: 100%;
