@@ -54,11 +54,13 @@ nav ul li a{
 ul li .service-dropdown li{
     display: inline-block;
     margin-right: 5px;
+     font-size: 14px
 }
 
 ul li .connect-dropdn li{
     display: inline-block;
     margin-right: 5px;
+    font-size: 14px
 }
 
 ul li .service-dropdown{
@@ -103,7 +105,8 @@ ul li:hover .connect-dropdn{
     justify-content: space-around;
     padding: 20px 10px ;
     margin: 1%;
-    box-shadow: 0 0 10px gray;
+    box-shadow: 3px 4px 15px black;
+    border-radius: 10px;
 }
 
 .container:hover{
