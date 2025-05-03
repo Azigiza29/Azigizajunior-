@@ -611,11 +611,11 @@ footer span{
 } 
 
 .linebb{
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     width: 120px;
     height: 5px;
-    background: #e58439e6;
+    background: ;
     margin-left: 30%;
 }
     
