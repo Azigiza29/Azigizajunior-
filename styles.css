@@ -164,7 +164,7 @@ ul li:hover .connect-dropdn{
 }
 
 .hero-container{
-    padding: 20px;
+    padding: 15px;
     color: #fff;
     z-index: 1;
 }
@@ -197,7 +197,7 @@ ul li:hover .connect-dropdn{
 }
 
 .hero h1{
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 15px;
     text-transform: capitalize;
     text-align: center;
