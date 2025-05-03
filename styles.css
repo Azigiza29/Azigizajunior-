@@ -69,7 +69,7 @@ ul li .service-dropdown{
     font-family: sans-serif, montserrat, sans;
     background-color: tan;
     z-index: 2;   
-     font-size: 14px;
+    font-size: 14px;
     overflow-y: hidden; 
 }
 
@@ -81,7 +81,7 @@ ul li .connect-dropdn{
     font-family: sans-serif, montserrat, sans;
     background-color: tan;
     z-index: 2;
-     font-size: 14px;
+    font-size: 14px;
     overflow-y: hidden; 
 }
 
@@ -201,7 +201,7 @@ ul li:hover .connect-dropdn{
 }
 
 .hero h1{
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 15px;
     text-transform: capitalize;
     text-align: center;
@@ -253,7 +253,7 @@ ul li:hover .connect-dropdn{
     
  .about-container p{
         line-height: 25px;
-        font-family: serif;
+        font-family: sans-serif, arial, san;
         margin-top: 20px;
 }
     
@@ -390,7 +390,7 @@ footer span{
 
 .social-links i{
     color: ghostwhite;
-    font-size: 30px;
+    font-size: 14px;
     margin: 20px;
 }
 
@@ -434,7 +434,7 @@ nav{
     border: none;
     background: #e58439e6;
     color: beige;
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 10px;
     margin-bottom: 30px;
     border-radius: 5px;margin-bottom: 10px;
@@ -547,7 +547,7 @@ footer span{
 
 .social-links i{
     color: ghostwhite;
-    font-size: 30px;
+    font-size: 14px;
     margin: 20px;
 }
 
@@ -622,7 +622,7 @@ footer span{
     height: 40px;
     border: none;
     background: #e58439e6;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     margin: 30px 0;
     border-radius: 8px;
