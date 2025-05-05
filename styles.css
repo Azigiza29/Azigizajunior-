@@ -103,7 +103,7 @@ ul li a:hover{
 }
 
 ul li:hover .service-dropdown{
-    display: inline-table;
+    display: inline-flex;
 }
 
 ul li:hover .connect-dropdn{
